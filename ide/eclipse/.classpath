@@ -7,18 +7,19 @@
 	<classpathentry kind="src" path="packages/apps/Calendar/extensions_src"/>
 	<classpathentry kind="src" path="packages/apps/Calculator/src"/>
 	<classpathentry kind="src" path="packages/apps/CertInstaller/src"/>
+	<classpathentry kind="src" path="packages/apps/CMFileManager/src"/>
 	<classpathentry kind="src" path="packages/apps/Contacts/src"/>
 	<classpathentry kind="src" path="packages/apps/DeskClock/src"/>
+	<classpathentry kind="src" path="packages/apps/DSPManager/src"/>
 	<classpathentry kind="src" path="packages/apps/Email/src"/>
 	<classpathentry kind="src" path="packages/apps/Email/emailcommon/src"/>
 	<classpathentry kind="src" path="packages/apps/Gallery2/src"/>
 	<classpathentry kind="src" path="packages/apps/Gallery2/src_pd"/>
 	<classpathentry kind="src" path="packages/apps/Gallery2/gallerycommon/src"/>
 	<classpathentry kind="src" path="packages/apps/HTMLViewer/src"/>
+	<classpathentry kind="src" path="packages/apps/KeyChain/src"/>
 	<classpathentry kind="src" path="packages/apps/Launcher2/src"/>
 	<classpathentry kind="src" path="packages/apps/Mms/src"/>
-	<classpathentry kind="src" path="packages/apps/Nfc/src"/>
-	<classpathentry kind="src" path="packages/apps/Nfc/nci/src"/>
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/Phone/src"/>
 	<classpathentry kind="src" path="packages/apps/QuickSearchBox/src"/>
@@ -26,6 +27,7 @@
 	<classpathentry kind="src" path="packages/apps/Settings/src"/>
 	<classpathentry kind="src" path="packages/apps/SoundRecorder/src"/>
 	<classpathentry kind="src" path="packages/apps/Stk/src"/>
+	<classpathentry kind="src" path="packages/apps/Torch/src"/>
 	<classpathentry kind="src" path="packages/apps/VoiceDialer/src"/>
 	<classpathentry kind="src" path="packages/providers/CalendarProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/ContactsProvider/src"/>
@@ -51,7 +53,6 @@
 	<classpathentry kind="src" path="frameworks/base/media/mca/effect/java"/>
 	<classpathentry kind="src" path="frameworks/base/media/mca/filterfw/java"/>
 	<classpathentry kind="src" path="frameworks/base/media/mca/filterpacks/java"/>
-	<classpathentry kind="src" path="frameworks/base/nfc-extras/java"/>
 	<classpathentry kind="src" path="frameworks/base/obex"/>
 	<classpathentry kind="src" path="frameworks/base/opengl/java"/>
 	<classpathentry kind="src" path="frameworks/base/packages/FusedLocation/src"/>
@@ -67,7 +68,6 @@
 	<classpathentry kind="src" path="frameworks/ex/carousel/java"/>
 	<classpathentry kind="src" path="frameworks/ex/chips/src"/>
 	<classpathentry kind="src" path="frameworks/ex/common/java"/>
-	<classpathentry kind="src" path="frameworks/ex/photoviewer/src"/>
 	<classpathentry kind="src" path="frameworks/ex/variablespeed/src"/>
 	<classpathentry kind="src" path="frameworks/opt/calendar/src"/>
 	<classpathentry kind="src" path="frameworks/opt/telephony/src/java"/>
@@ -76,26 +76,11 @@
 	<classpathentry kind="src" path="frameworks/support/v13/java"/>
 	<classpathentry kind="src" path="frameworks/support/v13/ics"/>
 	<classpathentry kind="src" path="frameworks/support/v13/ics-mr1"/>
-	<classpathentry kind="src" path="development/samples/ApiDemos/src"/>
-	<classpathentry kind="src" path="development/samples/ApiDemos/tests/src"/>
 	<classpathentry kind="src" path="development/samples/Compass/src"/>
-	<classpathentry kind="src" path="development/samples/HelloActivity/src"/>
-	<classpathentry kind="src" path="development/samples/HelloActivity/tests/src"/>
-	<classpathentry kind="src" path="development/samples/Home/src"/>
-	<classpathentry kind="src" path="development/samples/LunarLander/src"/>
-	<classpathentry kind="src" path="development/samples/LunarLander/tests/src"/>
-	<classpathentry kind="src" path="development/samples/NotePad/src"/>
-	<classpathentry kind="src" path="development/samples/NotePad/tests/src"/>
-	<classpathentry kind="src" path="development/samples/RSSReader/src"/>
-	<classpathentry kind="src" path="development/samples/SkeletonApp/src"/>
-	<classpathentry kind="src" path="development/samples/SkeletonApp/tests/src"/>
-	<classpathentry kind="src" path="development/samples/Snake/src"/>
-	<classpathentry kind="src" path="development/samples/Snake/tests/src"/>
 	<classpathentry kind="src" path="libcore/dalvik/src/main/java"/>
 	<classpathentry kind="src" path="libcore/json/src/main/java"/>
 	<classpathentry kind="src" path="libcore/luni/src/main/java"/>
 	<classpathentry kind="src" path="libcore/xml/src/main/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/APPS/ApiDemos_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Browser_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/CalendarProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/ContactsProvider_intermediates/src/src"/>
@@ -113,7 +98,6 @@
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/telephony/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/voip/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/wifi/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/NfcLogTags_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/services_intermediates/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/src/src/java"/>
 	<classpathentry kind="src" path="out/target/common/R"/>
@@ -124,13 +108,21 @@
 	<classpathentry kind="src" path="external/nist-sip/java"/>
 	<classpathentry kind="src" path="external/tagsoup/src"/>
 	<classpathentry kind="src" path="external/xmp_toolkit/XMPCore/src"/>
+	<classpathentry kind="src" path="vendor/tmobile/apps/ThemeChooser/src"/>
+	<classpathentry kind="src" path="vendor/tmobile/providers/ThemeManager/src"/>
+	<classpathentry kind="src" path="vendor/tmobile/libs/com.tmobile.themes/src"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/javalib.jar"/>
-	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/classes.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v13_intermediates/javalib.jar"/>
+	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-query_intermediates/javalib.jar"/>
+	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/classes.jar"/>
+	<classpathentry kind="lib" path="packages/apps/Calculator/libs/achartengine.jar"/>
+	<classpathentry kind="lib" path="packages/apps/Calculator/libs/arity-2.1.6.jar"/>
+	<classpathentry kind="lib" path="packages/apps/Calculator/libs/ejml-0.21.jar"/>
+	<classpathentry kind="lib" path="packages/apps/Calculator/libs/slider.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-common_intermediates/javalib.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/guava_intermediates/javalib.jar"/>
-	<classpathentry kind="lib" path="packages/apps/Calculator/arity-2.1.2.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/junit-runner_intermediates/javalib.jar"/>
+	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/xmp_toolkit_intermediates/javalib.jar"/>
 	<classpathentry kind="output" path="out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes"/>
 </classpath>
